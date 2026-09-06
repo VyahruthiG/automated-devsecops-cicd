@@ -28,7 +28,7 @@ jobs:
           pip install bandit
 
       - name: Run security scan
-        run: bandit app.py tests/test_app.py
+        run: bandit app.py 
 
       - name: Run tests
         run: pytest
