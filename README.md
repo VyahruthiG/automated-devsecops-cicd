@@ -166,41 +166,7 @@ Returns:
 
 ## Deployment Flow
 
-```text
-Code Push
-    |
-    v
-GitHub
-    |
-    v
-GitHub Actions
-    |
-    +--> Pytest
-    |
-    +--> Bandit
-    |
-    +--> Docker Build
-    |
-    +--> Trivy Scan
-    |
-    v
-AWS OIDC Authentication
-    |
-    v
-Amazon ECR
-    |
-    v
-AWS Systems Manager
-    |
-    v
-Amazon EC2
-    |
-    v
-Docker Container
-    |
-    v
-Flask Application
-```
+<img width="1214" height="1295" alt="image" src="https://github.com/user-attachments/assets/e07c981d-bf19-433e-9760-231b728cb1ce" />
 
 ## Verification
 
