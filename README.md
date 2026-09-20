@@ -10,44 +10,8 @@ The project demonstrates how security and automated deployment can be integrated
 
 ## Architecture
 
-```text
-                         Developer
-                             |
-                             v
-                          GitHub
-                             |
-                             v
-                     GitHub Actions
-                             |
-              +--------------+--------------+
-              |              |              |
-              v              v              v
-           Pytest          Bandit        Docker Build
-              |              |              |
-              +--------------+--------------+
-                             |
-                             v
-                       Trivy Scan
-                             |
-                             v
-                  GitHub OIDC Authentication
-                             |
-                             v
-                    Amazon ECR Repository
-                             |
-                             v
-                    AWS Systems Manager
-                         (SSM)
-                             |
-                             v
-                       Amazon EC2
-                             |
-                             v
-                       Docker Container
-                             |
-                             v
-                    Flask Web Application
-```
+<img width="1312" height="1199" alt="image" src="https://github.com/user-attachments/assets/75d5466b-c89f-41e5-b6d1-c1a7574066e1" />
+
 
 ## CI/CD Workflow
 
