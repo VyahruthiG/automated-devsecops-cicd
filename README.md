@@ -174,50 +174,49 @@ Returns:
 
 The GitHub Actions workflow demonstrates the automated CI/CD pipeline, including testing, security scanning, Docker image building, and deployment stages.
 
-![GitHub Actions Workflow](screenshots/github-actions-workflow.png)
+<img width="2142" height="1132" alt="github-actions-workflow png" src="https://github.com/user-attachments/assets/4e0168d0-ed74-4fde-b551-9eeb05da5f1b" />
 
 ### Successful ECR Deployment
 
 The successful GitHub Actions workflow shows the Docker image being pushed to Amazon ECR.
 
-![GitHub Actions ECR Success](screenshots/github-actions-ecr-success.png)
+<img width="2836" height="1492" alt="github-actions-ecr-success png" src="https://github.com/user-attachments/assets/6972ccba-a6ba-42c9-8e0c-51260389b877" />
 
 ### Amazon ECR Repository
 
 The Docker image is stored in a private Amazon ECR repository.
 
-![Amazon ECR Repository](screenshots/ecr-repository.png)
+<img width="2868" height="1516" alt="ecr-repository png" src="https://github.com/user-attachments/assets/8df5f9fe-9744-44a7-98de-7145d1ebbff3" />
 
 ### Docker Image in Amazon ECR
 
 The ECR image details show the image tags, digest, repository, and active image status.
 
-![Docker Image in ECR](screenshots/ecr-docker-image.png)
+<img width="2854" height="1154" alt="ecr-docker-image png" src="https://github.com/user-attachments/assets/8dcf9dd6-f26d-49da-9747-05bf689662be" />
 
 ### EC2 Instance
 
 The application was deployed to an Amazon EC2 instance running in the AWS Mumbai region.
 
-![EC2 Instance Summary](screenshots/ec2-instance-summary.png)
+<img width="2872" height="1490" alt="ec2-instance-summary png" src="https://github.com/user-attachments/assets/e87f223b-6b3b-4eb7-971c-ca69a73f4b31" />
 
 ### Running Docker Container
 
 The `docker ps` output confirms that the deployed Flask application was running inside a Docker container on EC2 and exposing port `5000`.
 
-![Running Docker Container](screenshots/ec2-docker-container.png)
+<img width="2876" height="200" alt="ec2-docker-container png" src="https://github.com/user-attachments/assets/74db9d24-6bfc-4410-abff-86cb942723ec" />
 
 ### Deployed Application
 
 The deployed Flask application was successfully accessed through the EC2 public IP address.
 
-![Deployed Flask Application](screenshots/application.png)
+<img width="2860" height="1592" alt="application png" src="https://github.com/user-attachments/assets/4b3d4efd-2139-40ce-bcd1-9ef8370c95b2" />
 
 ### Health Check
 
 The `/health` endpoint successfully returned a healthy status, confirming that the deployed application was responding correctly.
 
-![Application Health Check](screenshots/health-check.png)
-
+<img width="2616" height="1240" alt="health-check png" src="https://github.com/user-attachments/assets/f40e60bc-a4da-45d7-b405-ea5f985b6690" />
 
 ## Verification
 
