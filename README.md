@@ -267,6 +267,6 @@ Possible future improvements include:
 
 **Vyahruthi Goturu**
 
-Cloud Computing Engineer | VIT Bhopal
+Cloud Computing Engineer | VIT 
 
 GitHub: [VyahruthiG](https://github.com/VyahruthiG)
